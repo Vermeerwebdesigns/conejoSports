@@ -1,0 +1,35 @@
+
+CREATE TABLE login_users(
+	user_id INT(256) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    user_first VARCHAR(256) NOT NULL,
+    user_last VARCHAR(256) NOT NULL,
+    user_email VARCHAR(256) NOT NULL,
+    user_uid VARCHAR(256) NOT NULL,
+    user_pwd VARCHAR(256) NOT NULL
+
+);
+
+
+CREATE TABLE parents(
+	p_id INT(128) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    p_user VARCHAR(256) NOT NULL,
+    p_text VARCHAR(256) NOT NULL,
+    p_date DATETIME NOT NULL,
+    pcode VARCHAR(256) NOT NULL
+
+);
+
+CREATE TABLE children(
+	ch_id INT(128) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    ch_user VARCHAR(256) NOT NULL,
+    ch_text VARCHAR(256) NOT NULL,
+    ch_date DATETIME NOT NULL,
+    ch_parcode VARCHAR(256) NOT NULL
+
+);
+
+
+Add login system to comment system in PHP - PHP tutorial
+Change content with PHP when users are logged in - PHP tutorial
+Set username as comment message author in PHP - PHP tutorial
+Change comment settings on login - PHP tutorial

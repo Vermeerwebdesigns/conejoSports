@@ -1,0 +1,252 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+//my code
+
+body{
+  font: 16px/1.5 arial,helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color: #f4f4f4;
+}
+
+
+
+.mainshowcase{
+  min-height: 650px;
+}
+
+  #wordcupsection{
+  background-image: url('../images/worldcup.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#slider1{
+ width: 80%; /* for example */
+ margin: auto;
+ width:1000px;
+}
+
+
+//NFL Image
+
+ #footballsection{
+  background-image: url('../images/stadium.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+ #footballsection img{
+ min-width: 998px;
+ min-height: 524px;
+}
+
+//NBA Image
+
+ #basketballsection{
+  background-image: url('../images/courtball.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+ #basketballsection img{
+ min-width: 998px;
+ min-height: 524px;
+}
+
+
+textarea{
+  width: 480px;
+  height: 200px;
+  background-color: white;
+  resize: none;
+}
+
+h3 .comments{
+  padding-right: 20px;
+}
+
+#inform{
+  padding: 5px;
+}
+
+#subscribe{
+padding-top: 90px;
+}
+
+.comment_box{
+  width: 800px;
+
+  padding: 20px;
+  margin-bottom: 5px;
+  background-color: t#ffffff;
+  border-radius: 4px;
+  border: 1px solid #bdbdbd;
+}
+
+.comment_box p{
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #282828;
+  font-weight: 100;
+}
+
+@media(max-width: 768px){
+
+        #wordcupsection{
+            background-image: url('../images/worldcup-responsive.jpg');
+            min-height:400px;
+            background-position: center;
+            background-size:auto;
+              }
+
+
+        .form-group{
+          width: 270px;
+          height: 180px;
+          padding-left: 0px;
+          margin: auto;
+        }
+
+         #slider1{
+           display: none;
+         }
+
+        #showcase h1{
+          text-align: center;
+          font-size: 25px;
+          padding-top: 60px;
+          padding-bottom: 20px;
+         }
+
+         #showcase h3{
+           text-align: center;
+           font-size: 20px;
+           padding-top: 10px;
+           padding-bottom: 20px;
+         }
+
+         #showcase p{
+         font-size: 15px;
+         text-align:justify;
+         padding-left:10px;
+         padding-right: 10px;
+          }
+
+       #button1{
+         margin-top: 5px;
+       }
+
+       #comments h3{
+         text-align: center;
+         font-size: 25px;
+       }
+
+        #emailform .btn{
+         margin-top: 50px;
+       }
+
+       #textarea{
+        min-height: 10px;
+       }
+
+
+}
